@@ -1,27 +1,28 @@
-﻿# PROJET FINAL DEVOPS. 
+﻿# PROJET DEVOPS. 
 
 ## **1) Introduction**
 
-La société **IC GROUP** dans laquelle vous travaillez en tant qu’ingénieur Devops souhaite mettre sur pied un site web vitrine devant permettre d’accéder à ses 02 applications phares qui sont :  
+How to put together 2 Projects :  
 
-1) Odoo et 
+1) Odoo 
 1) pgAdmin 
 
-**Odoo**, un ERP multi usage qui permet de gérer les ventes, les achats, la comptabilité, l’inventaire, le personnel …  
+**Odoo**, is an ERP to manage sells, accounting, inventory and staff 
 
-Odoo est distribué en version communautaire et Enterprise. ICGROUP souhaite avoir la main sur le code et apporter ses propres modifications et customisations ainsi elle a opté pour l’édition communautaire.  Plusieurs versions de Odoo sont disponibles et celle retenue est la 13.0 car elle intègre un système de LMS (Learning Management System) qui sera utilisé pour publier les formations en internes et ainsi diffuser plus facilement l’information.  
+Odoo is commercially available as community and Enterprise version.
 
-Liens utiles : 
+Useful links : 
 
-- Site officiel :[ https://www.odoo.com/ ](https://www.odoo.com/) 
-- GitHub officiel:[ https://github.com/odoo/odoo.git ](https://github.com/odoo/odoo.git) 
-- Docker Hub officiel :[ https://hub.docker.com/_/odoo ](https://hub.docker.com/_/odoo) 
+- WebSite :[ https://www.odoo.com/ ](https://www.odoo.com/) 
+- GitHub :[ https://github.com/odoo/odoo.git ](https://github.com/odoo/odoo.git) 
+- Docker Hub :[ https://hub.docker.com/_/odoo ](https://hub.docker.com/_/odoo) 
 
 **pgAdmin** quant à elle devra être utilisée pour administrer de façon graphique la base de données PostgreSQL crée précédemment. 
 
-- Site officiel :[ https://www.pgadmin.org/ ](https://www.pgadmin.org/) 
-- Docker Hub officiel:[ https://hub.docker.com/r/dpage/pgadmin4/ ](https://hub.docker.com/r/dpage/pgadmin4/) 
+- WebSite :[ https://www.pgadmin.org/ ](https://www.pgadmin.org/) 
+- Docker Hub :[ https://hub.docker.com/r/dpage/pgadmin4/ ](https://hub.docker.com/r/dpage/pgadmin4/) 
 
+IC-Webapp is French Company that provides a template project that allows to show off some of the skills needed as a DevOps.
 Le site web vitrine a été conçu par l’équipe de développeurs de l’entreprise et les fichiers y relatifs se trouvent dans le repo suscité : [ https://github.com/sadofrazer/ic-webapp.git ](https://github.com/sadofrazer/ic-webapp.git) . Il est de votre responsabilité de conteneuriser cette application tout en permettant la saisie des différentes URL des applications (Odoo et pgadmin) par le biais des variables d’environnement. 
 
 Ci-dessous un aperçu du site vitrine attendu. 
