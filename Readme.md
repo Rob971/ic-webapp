@@ -1,4 +1,4 @@
-﻿# PROJET DEVOPS. 
+﻿# DEVOPS PROJECT . 
 
 ## **1) Introduction**
 
